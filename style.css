@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEF0F4;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img{
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+input{
+    color: #432000;
+    background-color: #DCE1EB;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+button{
+    color: #fdfdfd;
+    background-color: #ac485a;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 10px;
+}
