@@ -1,23 +1,25 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     background-color: #EEF0F4;
 
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     max-width: 320px;
     margin: 30px auto;
 }
 
-img{
+img {
     width: 150px;
     margin: 0 auto;
 }
 
 
-input{
+input {
     color: #432000;
     background-color: #DCE1EB;
     padding: 15px;
@@ -28,7 +30,7 @@ input{
     margin: 10px;
 }
 
-button{
+button {
     color: #fdfdfd;
     background-color: #ac485a;
     padding: 15px;
@@ -37,4 +39,5 @@ button{
     font-size: 20px;
     text-align: center;
     margin: 0 10px;
+    cursor: pointer;
 }

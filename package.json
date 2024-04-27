@@ -1,0 +1,5 @@
+{ "dependencies": { "firebase": "^10.11.1" }, "name": "build-mobile-app-with-firebase", "module": "index.js", "type": "module", "devDependencies": {
+  "@types/bun": "latest"
+}, "peerDependencies": {
+  "typescript": "^5.0.0"
+} }
