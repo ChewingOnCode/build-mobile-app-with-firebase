@@ -60,6 +60,7 @@ function appendItemToShoppingListEl(item) {
   let itemValue = item[1];
   // create a new li element
   let newEl = document.createElement("li");
+  newEl.tabIndex = 0;
   newEl.textContent = itemValue;
   // On click, delete the item from the database
   newEl.addEventListener("click", function () {
